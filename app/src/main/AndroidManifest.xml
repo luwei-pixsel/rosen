@@ -20,7 +20,13 @@
         <service
             android:name=".PlayMusicService"
             android:enabled="true"
-            android:exported="true"></service>
+            android:exported="true" />
+
+        <provider
+            android:name=".MusicContentProvider"
+            android:authorities="cn.il0ve.rosen"
+            android:enabled="true"
+            android:exported="true"></provider>
     </application>
 
 </manifest>
